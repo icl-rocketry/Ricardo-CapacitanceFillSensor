@@ -1,4 +1,11 @@
-22623308070777312
+22623314120152966
+AD7150BRMZ
+SOP50P490X110-10N
+
+
+0
+10
+10
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56104,13 +56111,6 @@ heatsink
 0
 0
 0
-ICLR
-SOP50P490X110-10N
-
-
-0
-10
-10
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
