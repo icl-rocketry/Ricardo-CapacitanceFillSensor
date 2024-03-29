@@ -1744,6 +1744,28 @@
 			)
 		)
 	)
+	(global_label "Probe1A"
+		(shape input)
+		(at 184.15 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34a8fb68-cdca-49e3-b184-a1505de63330")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8761 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Probe0A"
 		(shape input)
 		(at 34.29 55.88 180)
@@ -1832,28 +1854,6 @@
 			)
 		)
 	)
-	(global_label "Probe1A"
-		(shape input)
-		(at 184.15 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "56411b5b-d10b-45f8-b69b-6c4560f21568")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8761 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Probe0B"
 		(shape input)
 		(at 34.29 71.12 180)
@@ -1876,7 +1876,7 @@
 			)
 		)
 	)
-	(global_label "Probe1B"
+	(global_label "Probe0B"
 		(shape input)
 		(at 184.15 68.58 0)
 		(fields_autoplaced yes)
@@ -1886,7 +1886,7 @@
 			)
 			(justify left)
 		)
-		(uuid "5bf961fe-41de-4478-98b6-9dfefbb378d4")
+		(uuid "601e9b70-66b6-48f8-9769-a70f0d495fd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 195.0575 68.58 0)
 			(effects
@@ -2008,28 +2008,6 @@
 			)
 		)
 	)
-	(global_label "Probe0B"
-		(shape input)
-		(at 184.15 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9007ae7e-a835-4bbe-825a-fd2cd4140122")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.0575 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IN1A"
 		(shape input)
 		(at 70.485 36.195 0)
@@ -2098,7 +2076,7 @@
 	)
 	(global_label "Probe0A"
 		(shape input)
-		(at 184.15 71.12 0)
+		(at 184.15 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2106,9 +2084,31 @@
 			)
 			(justify left)
 		)
-		(uuid "f50483bb-dfe3-43cf-9907-ff24d3e1edcf")
+		(uuid "ee09da25-029c-4457-854e-6fb450aa0ccb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8761 71.12 0)
+			(at 194.8761 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Probe1B"
+		(shape input)
+		(at 184.15 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee3f70be-1346-4ccb-ae56-70471d75df39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 195.0575 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
