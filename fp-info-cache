@@ -1,4 +1,4 @@
-23301086958445211
+23321796168760357
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94738,13 +94738,6 @@ Varistor VF
 2
 2
 iclr
-95
-
-
-0
-0
-0
-iclr
 292227-7
 
 
@@ -94877,13 +94870,6 @@ GCT_USB4110-GF-A_REVB
 0
 16
 16
-iclr
-IC_ESP32-S3
-
-
-0
-69
-69
 iclr
 IC_TPS61089RNRR
 
@@ -95430,13 +95416,6 @@ microSIM GSM Card
 0
 14
 7
-iclr
-nocap
-
-
-0
-0
-0
 iclr
 pickle_ric
 

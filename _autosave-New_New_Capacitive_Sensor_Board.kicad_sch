@@ -2117,28 +2117,6 @@
 			)
 		)
 	)
-	(global_label "Probe1A"
-		(shape input)
-		(at 213.36 69.85 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34a8fb68-cdca-49e3-b184-a1505de63330")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.0861 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Probe1B"
 		(shape input)
 		(at 217.17 92.71 0)
@@ -2262,28 +2240,6 @@
 		(uuid "5f2b79ef-8249-4841-87b9-a2f42153cc1c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.4024 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Probe0B"
-		(shape input)
-		(at 213.36 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "601e9b70-66b6-48f8-9769-a70f0d495fd6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.2675 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2504,50 +2460,6 @@
 		(uuid "e6504957-6cab-424e-8795-b59326847366")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 147.4024 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Probe0A"
-		(shape input)
-		(at 213.36 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee09da25-029c-4457-854e-6fb450aa0ccb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.0861 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Probe1B"
-		(shape input)
-		(at 213.36 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ee3f70be-1346-4ccb-ae56-70471d75df39")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.2675 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,79 +3698,6 @@
 			(project "New_New_Capacitive_Sensor_Board"
 				(path "/c61a09a3-67ff-4c3d-a565-c5f62c2418cd"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Pin")
-		(at 208.28 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2dccbb9-fc26-4333-b22d-7948c9a7d0ef")
-		(property "Reference" "J2"
-			(at 212.09 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Pin"
-			(at 212.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_Nano-Fit_105313-xx04_1x04_P2.50mm_Horizontal"
-			(at 208.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1cc1b72d-f707-485b-8fd7-5f2492cec01b")
-		)
-		(pin "1"
-			(uuid "26ddb925-3eb9-4f50-8a57-db870b9a4528")
-		)
-		(pin "4"
-			(uuid "ec5a591c-0f8a-4b20-be60-e7413aebd417")
-		)
-		(pin "3"
-			(uuid "3624f01c-6969-4066-86b5-ceb79f7a7109")
-		)
-		(instances
-			(project "New_New_Capacitive_Sensor_Board"
-				(path "/c61a09a3-67ff-4c3d-a565-c5f62c2418cd"
-					(reference "J2")
 					(unit 1)
 				)
 			)
